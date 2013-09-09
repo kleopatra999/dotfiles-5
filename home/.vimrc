@@ -6,6 +6,9 @@ filetype plugin indent on
 set autoread
 set nocompatible " Fuck vi :-)
 
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+execute pathogen#infect()
+
 "
 " Vim User Interface
 "
@@ -22,5 +25,4 @@ set showmatch
 set ignorecase
 set hlsearch " Highlight search results
 set incsearch " Makes search act like search in modern browsers
-
 
