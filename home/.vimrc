@@ -1,13 +1,21 @@
 "
 " General
 "
-set history=700
-filetype plugin indent on
-set autoread
-set nocompatible " Fuck vi :-)
+set nocompatible               " be iMproved
+filetype off                   " required!
 
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-execute pathogen#infect()
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+"  " required! 
+Bundle 'gmarik/vundle'
+Bundle 'evidens/vim-twig'
+
+filetype plugin indent on     " required!
+
+set history=700
+set autoread
 
 "
 " Vim User Interface
