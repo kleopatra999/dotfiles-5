@@ -11,6 +11,9 @@ call vundle#rc()
 "  " required! 
 Bundle 'gmarik/vundle'
 Bundle 'evidens/vim-twig'
+Bundle 'groenewege/vim-less'
+Bundle 'skammer/vim-css-color'
+Bundle 'hail2u/vim-css3-syntax'
 
 filetype plugin indent on     " required!
 
@@ -34,3 +37,6 @@ set ignorecase
 set hlsearch " Highlight search results
 set incsearch " Makes search act like search in modern browsers
 
+set tabstop=4
+set shiftwidth=4
+set expandtab
