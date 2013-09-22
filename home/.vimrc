@@ -14,6 +14,7 @@ Bundle 'evidens/vim-twig'
 Bundle 'groenewege/vim-less'
 Bundle 'skammer/vim-css-color'
 Bundle 'hail2u/vim-css3-syntax'
+Bundle 'bling/vim-airline'
 
 filetype plugin indent on     " required!
 
