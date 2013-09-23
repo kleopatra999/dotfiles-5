@@ -41,3 +41,6 @@ set incsearch " Makes search act like search in modern browsers
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
+set includeexpr=substitute(v:fname,'\\\','/','g')
+set suffixesadd+=.php
