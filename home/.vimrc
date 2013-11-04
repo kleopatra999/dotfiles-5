@@ -18,6 +18,7 @@ Bundle 'hail2u/vim-css3-syntax'
 Bundle 'bling/vim-airline'
 Bundle 'arnaud-lb/vim-php-namespace'
 Bundle 'docteurklein/vim-symfony'
+Bundle 'kchmck/vim-coffee-script'
 
 filetype off                   " required!
 filetype plugin indent on     " required!
