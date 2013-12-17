@@ -66,8 +66,8 @@ URxvt*foreground:                     white
 ! URxvt*pointerColor2:                  color
 ! URxvt*borderColor:                    color
 ! URxvt*iconFile:                       file
-URxvt*font:                           xft:Source Code Pro for Powerline,Sauce Code Powerline:style=Regular:pixelsize=10:antialias=true:hinting=true
-URxvt*boldFont:                       xft:Source Code Pro for Powerline,Sauce Code Powerline:style=Bold,BoldForPowerline:pixelsize=10:antialias=true:hinting=true
+URxvt*font:                           xft:Source Code Pro for Powerline,Sauce Code Powerline:style=Regular:pixelsize=8:antialias=true:hinting=true
+URxvt*boldFont:                       xft:Source Code Pro for Powerline,Sauce Code Powerline:style=Bold,BoldForPowerline:pixelsize=8:antialias=true:hinting=true
 ! URxvt*italicFont:                     fontname
 ! URxvt*boldItalicFont:                 fontname
 ! URxvt*intensityStyles:                boolean
