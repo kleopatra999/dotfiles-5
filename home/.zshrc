@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="powerline"
+ZSH_THEME="sorin"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -45,9 +45,6 @@ plugins=(git symfony)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-
-# Used by powerline fonts
-export PYTHONPATH=/usr/lib/python3.3/site-packages
 
 # Homes(h)ick
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
