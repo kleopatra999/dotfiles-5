@@ -67,6 +67,8 @@
 ! URxvt*borderColor:                    color
 ! URxvt*iconFile:                       file
 ! URxvt*font:                           xft:Source Code Pro for Powerline,Sauce Code Powerline:style=Regular:pixelsize=8:antialias=true:hinting=true
+URxvt.font: xft:Source Code Pro:size=10
+URxvt.boldFont: xft:Source Code Pro:bold:size=10
 ! URxvt*boldFont:                       xft:Source Code Pro for Powerline,Sauce Code Powerline:style=Bold,BoldForPowerline:pixelsize=8:antialias=true:hinting=true
 ! URxvt*italicFont:                     fontname
 ! URxvt*boldItalicFont:                 fontname
