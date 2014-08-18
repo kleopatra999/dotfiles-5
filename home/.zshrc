@@ -45,6 +45,11 @@ plugins=(ansible archlinux git github jump npm python themes vagrant virtualenvw
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-
 # Homes(h)ick
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
+
+export EDITOR=/usr/bin/vim
+export VISUAL=/usr/bin/vim
+
+# Using this file, you can customize ZSH
+[[ -e "$HOME/.zshrc.local" ]] && source "$HOME/.zshrc.local"
