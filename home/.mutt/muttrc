@@ -1,0 +1,27 @@
+## General options
+set editor = `echo \$EDITOR`
+set header_cache = "~/.cache/mutt"
+set imap_check_subscribed
+set imap_keepalive = 300
+unset imap_passive
+set mail_check = 60
+set mbox_type = Maildir
+
+
+## Colors
+source "~/.mutt/mutt-colors-solarized/mutt-colors-solarized-light-256.muttrc"
+
+
+## PGP Security
+source "~/.mutt/gpg"
+set pgp_use_gpg_agent = yes
+set pgp_timeout = 3600
+
+
+## Key bindings
+bind compose p pgp-menu
+macro compose Y pfy "send mail without GPG"
+
+## Customization using muttr.local file
+# Tricks from http://dev.mutt.org.trac/wiki/ConfigTricks
+source `FILE=$HOME/.mutt/muttrc.local; if [ ! -s "$FILE" ]; then FILE=/dev/null;fi;echo "$FILE"`
