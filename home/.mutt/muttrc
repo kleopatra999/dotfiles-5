@@ -9,7 +9,7 @@ set mbox_type = Maildir
 
 
 ## Colors
-source "~/.mutt/mutt-colors-solarized/mutt-colors-solarized-light-256.muttrc"
+source "~/.mutt/mutt_color_256"
 
 
 ## PGP Security

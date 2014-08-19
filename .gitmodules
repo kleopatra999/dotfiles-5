@@ -13,6 +13,3 @@
 [submodule "home/.config/solarized"]
 	path = home/.config/solarized
 	url = https://github.com/solarized/xresources.git
-[submodule "home/.mutt/mutt-colors-solarized"]
-	path = home/.mutt/mutt-colors-solarized
-	url = https://github.com/altercation/mutt-colors-solarized
